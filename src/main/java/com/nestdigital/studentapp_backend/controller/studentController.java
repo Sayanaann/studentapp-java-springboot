@@ -12,4 +12,9 @@ public class studentController {
         return "welcome to my website";
 
     }
-}
+    @GetMapping("/contact")
+    public String Contactpage() {
+        return "welcome to my contact";
+    }
+
+    }
